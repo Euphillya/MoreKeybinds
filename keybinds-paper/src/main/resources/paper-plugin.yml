@@ -3,3 +3,5 @@ main: moe.euphyllia.keybinds.paper.KeyBindsPlugin
 version: ${version}
 api-version: 1.21.11
 folia-supported: true
+description: "Adds custom keybinds to Paper servers. Exposes KeybindRegistry API for other plugins."
+loader: moe.euphyllia.keybinds.paper.KeyBindsLoader

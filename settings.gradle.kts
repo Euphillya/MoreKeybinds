@@ -10,5 +10,6 @@ pluginManagement {
 
 }
 
+include("keybinds-api")
 include("keybinds-fabric")
 include("keybinds-paper")

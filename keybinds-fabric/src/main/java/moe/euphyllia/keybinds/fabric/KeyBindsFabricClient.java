@@ -4,8 +4,8 @@ import moe.euphyllia.keybinds.fabric.network.HelloPayload;
 import moe.euphyllia.keybinds.fabric.network.KeyPressPayload;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
-import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
+import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 
 public class KeyBindsFabricClient implements ClientModInitializer {
 
