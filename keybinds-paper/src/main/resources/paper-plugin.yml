@@ -1,0 +1,5 @@
+name: KeyBinds-Paper
+main: moe.euphyllia.keybinds.paper.KeyBindsPlugin
+version: ${version}
+api-version: 1.21.11
+folia-supported: true
