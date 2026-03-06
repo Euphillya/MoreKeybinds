@@ -2,6 +2,7 @@ package moe.euphyllia.keybinds.paper.features;
 
 import moe.euphyllia.keybinds.api.KeyPressEvent;
 import moe.euphyllia.keybinds.api.PlayerKeybindModReadyEvent;
+import moe.euphyllia.keybinds.api.features.BuiltinFeature;
 import moe.euphyllia.keybinds.paper.api.KeybindAPI;
 import net.kyori.adventure.text.minimessage.MiniMessage;
 import org.bukkit.event.EventHandler;

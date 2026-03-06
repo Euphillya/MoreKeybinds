@@ -1,4 +1,4 @@
-package moe.euphyllia.keybinds.paper.features;
+package moe.euphyllia.keybinds.api.features;
 
 import org.bukkit.event.Listener;
 

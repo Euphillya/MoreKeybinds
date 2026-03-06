@@ -1,0 +1,12 @@
+name: ExamplePlugin
+main: moe.euphyllia.keybinds.example.ExamplePlugin
+loader: moe.euphyllia.keybinds.example.ExamplePluginLoader
+version: 1.0.0
+api-version: 1.21.11
+description: "Example plugin using MoreKeybinds API"
+
+dependencies:
+  server:
+    MoreKeybinds:
+      load: BEFORE
+      required: true
