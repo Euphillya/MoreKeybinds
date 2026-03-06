@@ -22,7 +22,7 @@ public class KeyBindsFabricClient implements ClientModInitializer {
                 KeyPressPayload.CODEC
         );
 
-        KeyInputHandler.init();
+        KeyInputHandler.init(); // Todo : doit charger un fichier de config par serveur de jeu
 
         ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
 

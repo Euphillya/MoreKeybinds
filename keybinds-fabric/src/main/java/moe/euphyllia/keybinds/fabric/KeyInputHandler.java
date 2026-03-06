@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.minecraft.client.KeyMapping;
+import net.minecraft.resources.Identifier;
 import org.lwjgl.glfw.GLFW;
 
 public class KeyInputHandler {
@@ -14,12 +15,13 @@ public class KeyInputHandler {
 
     public static void init() {
 
+        KeyMapping.Category category = KeyMapping.Category.register(Identifier.fromNamespaceAndPath("server", "play.euphyllia.moe"));
         testKey = KeyBindingHelper.registerKeyBinding(
                 new KeyMapping(
-                        "key.keybinds.test",
+                        "Button Test",
                         InputConstants.Type.KEYSYM,
                         GLFW.GLFW_KEY_G,
-                        KeyMapping.Category.MISC
+                        category
                 )
         );
 
